@@ -26,8 +26,8 @@
       a:hover {
         color: rgb(108, 197, 161);
       }
-      
-      img{
+
+      img {
         width: 100%;
       }
 
@@ -48,7 +48,7 @@
         font-style: normal;
         text-align: center;
       }
-      
+
       h2 {
         font-family: "Oswald", sans-serif;
         font-optical-sizing: auto;
@@ -69,8 +69,8 @@
         font-weight: 400;
         font-style: normal;
       }
-  
-       .container {
+
+      .container {
         display: grid;
         margin: 0 auto;
         grid-template-columns: 50% 50%;
@@ -78,15 +78,15 @@
         max-width: 80%;
         padding: 3%;
         text-align: center;
-        }
-      
-       .grid-item {
+      }
+
+      .grid-item {
         background-color: #FFA07A;
         padding: 6%;
         margin: 8%;
         min-width: 50%;
         max-height: 90%;
-        }
+      }
 
       footer {
         text-align: center;
@@ -95,45 +95,52 @@
         color: seashell;
         background-color: #FF6347
       }
+
+      .site-center {
+        max-width: 100%;
+        margin: auto;
+      }
     </style>
   </head>
   <body style="background-color:seashell">
-    <h1 id="site-title">Greg’s Banh Mi</h1>
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/">Menu</a></li>
-        <li><a href="/">About</a></li>
-        <li><a href="/">Contact</a></li>
-      </ul>
-    </nav>
-    <h1 style="font-size">At Greg's Banh Mi, we're serving up the perfect marriage of French and Vietnamese culinary traditions—crispy-on-the-outside, pillowy-on-the-inside baguettes loaded with bold, fresh flavorus that'll make your taste buds sing.</h1>
+    <div style="site-center">
+      <h1 id="site-title">Greg’s Banh Mi</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Menu</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Contact</a></li>
+        </ul>
+      </nav>
+      <h1 style="font-size">At Greg's Banh Mi, we're serving up the perfect marriage of French and Vietnamese culinary traditions—crispy-on-the-outside, pillowy-on-the-inside baguettes loaded with bold, fresh flavorus that'll make your taste buds sing.</h1>
 
-    <div class="container">
-      <div class="grid-item">
-        <img src="pork_banh_mi.webp" alt="I know what you are">
-        <h2>Classic Pork Banh Mi</h2>
-        <p>Tender marinated pork topped with crisp pickled vegetables, fresh cilantro, and a smear of pâté on a perfectly crusty baguette. A traditional favorite that balances savory, sweet, and tangy flavors in every bite.</p>
-      </div>
-      
-      <div class="grid-item">
-        <img src="chicken_banh_mi.webp" alt="I know what you are">
-        <h2>Lemongrass Chicken Banh Mi</h2>
-        <p>Grilled chicken marinated in fragrant lemongrass and garlic, paired with cucumber, jalapeños, and our house mayo. Light yet satisfying, this sandwich brings bright, aromatic flavors that'll transport you straight to Saigon.</p>
-      </div>
-      
-      <div class="grid-item">
-        <img src="tofu_banh_mi.webp" alt="I know what you are">
-        <h2>Tofu Banh Mi</h2>
-        <p>Crispy pan-fried tofu glazed in sweet soy sauce, layered with daikon, carrots, and fresh herbs for a vegetarian delight. Proof that plant-based can be just as bold and craveable as any meat-filled sandwich.</p>
-      </div>
+      <div class="container">
+        <div class="grid-item">
+          <img src="pork_banh_mi.webp" alt="I know what you are">
+          <h2>Classic Pork Banh Mi</h2>
+          <p>Tender marinated pork topped with crisp pickled vegetables, fresh cilantro, and a smear of pâté on a perfectly crusty baguette. A traditional favorite that balances savory, sweet, and tangy flavors in every bite.</p>
+        </div>
 
-      <div class="grid-item">
-        <img src="five_spice_banh_mi.webp" alt="I know what you are">
-        <h2>Five-Spice Beef Banh Mi</h2>
-        <p>Thinly sliced beef seared with aromatic five-spice blend and served with pickled vegetables and spicy Sriracha mayo. Rich, warming spices meet cool, crunchy toppings for an unforgettable flavor experience.</p>
+        <div class="grid-item">
+          <img src="chicken_banh_mi.webp" alt="I know what you are">
+          <h2>Lemongrass Chicken Banh Mi</h2>
+          <p>Grilled chicken marinated in fragrant lemongrass and garlic, paired with cucumber, jalapeños, and our house mayo. Light yet satisfying, this sandwich brings bright, aromatic flavors that'll transport you straight to Saigon.</p>
+        </div>
+
+        <div class="grid-item">
+          <img src="tofu_banh_mi.webp" alt="I know what you are">
+          <h2>Tofu Banh Mi</h2>
+          <p>Crispy pan-fried tofu glazed in sweet soy sauce, layered with daikon, carrots, and fresh herbs for a vegetarian delight. Proof that plant-based can be just as bold and craveable as any meat-filled sandwich.</p>
+        </div>
+
+        <div class="grid-item">
+          <img src="five_spice_banh_mi.webp" alt="I know what you are">
+          <h2>Five-Spice Beef Banh Mi</h2>
+          <p>Thinly sliced beef seared with aromatic five-spice blend and served with pickled vegetables and spicy Sriracha mayo. Rich, warming spices meet cool, crunchy toppings for an unforgettable flavor experience.</p>
+        </div>
       </div>
-</div>
-    <footer>Because life's too short for boring sandwiches. Greg's got you covered—one crispy baguette at a time.</footer>
+      <footer>Because life's too short for boring sandwiches. Greg's got you covered—one crispy baguette at a time.</footer>
+    </div>
   </body>
 </html>
